@@ -1,6 +1,6 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Rails Forms
+# Re-former
 
 > A Ruby on Rails forms project.
 
@@ -21,7 +21,7 @@ To get a local copy up and running follow these steps:
 
 - Change to the project's root directory
 ```
-cd rails-forms
+cd re-former
 ```
 
 - Install the required gems
@@ -35,9 +35,14 @@ rails db:create
 rails db:migrate
 ```
 
-- Use the console to manipulate the database
+- Start up the Rails server
 ```
-rails console
+rails server
+```
+
+- Open you browser and access your app on the address
+```
+http://localhost:3000/users/new
 ```
 
 ## Authors
